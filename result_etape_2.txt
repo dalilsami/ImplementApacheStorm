@@ -4,13 +4,12 @@ Pour le schéma cible, nous avons décidé de créer une table qui récupérera 
 
 Notre algorithme de choix des Tweets:
 
-Si l'auteur du tweet a créé son compte il y a plus de 1	semaine
-   Si le tweet n'est pas un RT
-      Si le tweet date d'il y a moins de 1 semaine
-      	 Si le tweet est en francais ou en	anglais
-      	    Si l'auteur du tweet a plus de 10000 followers
+   Si le tweet n'est pas un RT (on favorise les tweets non les retweet, ainsi éviter les doublons)
+      Si le tweet date d'il y a moins de 1 semaine (pour avoir les tweets récents)
+      	 Si le tweet est en francais ou en anglais
+      	    Si l'auteur du tweet a plus de 10000 followers (auteur influent = tweet influent)
    	       On insere le tweet dans la database
-   	    Si le tweet a plus de 1000 RT
+   	    Si le tweet a plus de 1000 RT 
    	       On insere le	tweet dans la database
    	    Si le tweet a plus de 500 fav
    	       On insere le tweet dans la database
