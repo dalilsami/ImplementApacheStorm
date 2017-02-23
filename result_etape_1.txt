@@ -1,3 +1,4 @@
 
 Voici l'url de notre apache STORM UI:
-172.16.233.2:8080
+172.16.1.195:8080(vm locale)
+172.16.233.2:8080(vm etna)
