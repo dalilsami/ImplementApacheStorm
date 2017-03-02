@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="target">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/storm_process_java/target/storm-starter-1.0.2-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/storm_process_java/target/original-storm-starter-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/storm_process_java/target/storm-starter-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/storm_process_java/target/storm-starter-1.0.2-shaded.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

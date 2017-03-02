@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: com.beust:jcommander:1.27">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-5.1.40-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
